@@ -9,12 +9,23 @@
 // console.log(name); // 이름3 출력
 
 // 2. Scope
-var global = '전역';
+let global = '전역';
 
 if (global === '전역') {
-  var global = '지역';
+  global = '지역';
 
 }
 
-console.log("하이");
+console.log(global);
 
+const person = [{
+  name: 'jang',
+  age: '30',
+}];
+
+person.push({
+  name: 'lee',
+  age: '22',
+});
+
+console.log(person);
