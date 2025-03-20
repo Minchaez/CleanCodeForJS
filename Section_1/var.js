@@ -1,4 +1,4 @@
-// 1. restrict "var"
+// 1. var의 사용을 지양하기.
 // const name;
 
 // name = '이름';
@@ -9,23 +9,23 @@
 // console.log(name); // 이름3 출력
 
 // 2. Scope
-let global = '전역';
+// let global = '전역';
 
-if (global === '전역') {
-  global = '지역';
+// if (global === '전역') {
+//   global = '지역';
 
-}
+// }
 
-console.log(global);
+// console.log(global);
 
-const person = [{
-  name: 'jang',
-  age: '30',
-}];
+// const person = [{
+//   name: 'jang',
+//   age: '30',
+// }];
 
-person.push({
-  name: 'lee',
-  age: '22',
-});
+// person.push({
+//   name: 'lee',
+//   age: '22',
+// });
 
-console.log(person);
+// console.log(person);
